@@ -77,14 +77,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/firmware/a702_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a702_sqe.fw \
     vendor/motorola/borneo/proprietary/vendor/firmware/aw882xx_mono.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_mono.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/aw882xx_spk_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_spk_reg.bin \
-    vendor/motorola/borneo/proprietary/vendor/firmware/focaltech-djnboe-ft8009-07-000-borneo.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-djnboe-ft8009-07-000-borneo.bin \
-    vendor/motorola/borneo/proprietary/recovery/root/vendor/firmware/focaltech-djnboe-ft8009-07-000-borneo.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech-djnboe-ft8009-07-000-borneo.bin \
+    vendor/motorola/borneo/proprietary/recovery/root/vendor/firmware/focaltech_ts_fw_djnboe.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_ts_fw_djnboe.bin \
+    vendor/motorola/borneo/proprietary/vendor/firmware/focaltech_ts_fw_djnboe.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_djnboe.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/ilitek_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ilitek_fw.bin \
     vendor/motorola/borneo/proprietary/recovery/root/vendor/firmware/ilitek_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ilitek_fw.bin \
-    vendor/motorola/borneo/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
-    vendor/motorola/borneo/proprietary/recovery/root/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw.bin \
-    vendor/motorola/borneo/proprietary/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp.bin \
-    vendor/motorola/borneo/proprietary/recovery/root/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_mp.bin \
+    vendor/motorola/borneo/proprietary/recovery/root/vendor/firmware/djn_novatek_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/djn_novatek_ts_fw.bin \
+    vendor/motorola/borneo/proprietary/vendor/firmware/djn_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn_novatek_ts_fw.bin \
+    vendor/motorola/borneo/proprietary/recovery/root/vendor/firmware/djn_novatek_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/djn_novatek_ts_mp.bin \
+    vendor/motorola/borneo/proprietary/vendor/firmware/djn_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn_novatek_ts_mp.bin \
     vendor/motorola/borneo/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so \
