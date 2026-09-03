@@ -36,6 +36,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc \
     vendor/motorola/borneo/proprietary/vendor/etc/init/init.ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ets.rc \
     vendor/motorola/borneo/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
+    vendor/motorola/borneo/proprietary/vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@2.2-service.rc \
+    vendor/motorola/borneo/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
+    vendor/motorola/borneo/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
+    vendor/motorola/borneo/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
+    vendor/motorola/borneo/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
+    vendor/motorola/borneo/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
+    vendor/motorola/borneo/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     vendor/motorola/borneo/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_720p_655.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_djn_720p_655.xml \
     vendor/motorola/borneo/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_djnboe_720p_655.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_djnboe_720p_655.xml \
     vendor/motorola/borneo/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tm_720p_655.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tm_720p_655.xml \
@@ -105,6 +112,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/usr/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl
 
 PRODUCT_PACKAGES += \
+    libperfconfig \
+    libperfgluelayer \
+    libperfioctl \
+    libqti-perfd-client \
+    libqti-perfd \
+    libqti-util \
     libthermalclient \
     com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom \
     com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom \
@@ -219,4 +232,5 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service-ets \
     android.hardware.biometrics.fingerprint@2.1-service-fpc \
     fpc_ident \
+    vendor.qti.hardware.perf@2.2-service \
     thermal-engine
